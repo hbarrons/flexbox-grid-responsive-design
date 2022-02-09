@@ -27,20 +27,17 @@ body {
 
 main {
   display: grid;
-  grid-template-columns: 15% 35% 35% 15%;
-  grid-template-rows: 8% 24% 24% 24% 24%;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 4% 24% 24% 24% 24%;
   height: 100vh;
 }
 
 #status {
-  /* max-height: 150px;
-  max-width: 200px;
-  width: 120px;
-  height: 120px; */
   color: darkgray;
   font-size: 17px;
+  align-items: right;
   background-color: white;
-  grid-column: 4 / 5;
+  grid-column: 1 / 5;
 }
 
 #photo {
@@ -48,8 +45,8 @@ main {
   border: green;
   margin: 0 10px;
   height: auto;
-  justify-content: center;
-  grid-column: 2 / 4;
+  justify-content: ;
+  grid-column: 2 / 3;
 }
 
 #name {
@@ -66,13 +63,13 @@ h1{
   margin: 0;
 }
 
-p {
+#name > p {
   margin: 0;
 }
 
 #occupation {
   display: flex;
-  font-size: 10px;
+  font-size: 35px;
   justify-content: center;
   background-color: lightgray;
   align-items: end;
@@ -101,7 +98,7 @@ p {
 
 #contact {
   display: flex;
-  font-size: 50px;
+  font-size: 40px;
   justify-content: space-around;
   align-items: center;
   background-color: rgb(42, 182, 119);
