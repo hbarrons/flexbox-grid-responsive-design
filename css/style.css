@@ -134,32 +134,37 @@ h1{
   
 
   #status {
-    
+    text-align: left;
   }
   
   img {
-    
+    margin: 0 auto;
+  
   }
   
-  #brand {
-    
-  }
+ 
 
   #contact {
-    
+    grid-column: 1 / 2;
   }
 
-
+  #brand {
+    display: inline;
+  }
+ 
   #brand > p {
-    
+    border-left: green 4px solid;
+    padding: 0 20px 0 8px;
+    font-size: 1.6rem;
   }
+ 
 
   #offer {
     
   }
 
   #name, #occupation, #brand, #offer {
-    
+    grid-column: 2 / 4;
   }
   
 }
