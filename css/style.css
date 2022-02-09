@@ -95,3 +95,10 @@ main>img {
   background-color: rgb(42, 182, 119);
   grid-column: 1 / 5;
 }
+
+
+@media only screen and (max-width: 1026px) {
+  #brand {
+      display: none;
+  }
+}
