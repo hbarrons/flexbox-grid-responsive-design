@@ -113,11 +113,22 @@ h1{
 
 #contact {
   display: flex;
-  font-size: 40px;
-  justify-content: space-around;
+}
+
+#contact > p {
+  height: 60px;
+  width: 50%;
+  display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+#contact>p:first-child {
   background-color: rgb(65, 202, 141);
-  max-height: 70px;
+}
+
+#contact > p:last-child {
+  background-color: rgb(16, 177, 104);
 }
 
 
@@ -201,7 +212,16 @@ h1{
   #contact {
     grid-column: 1 / 2;
     grid-area: contact;
+    max-height: 200px;
   }
+/* 
+  #contact>p:first-child {
+    background-color: rgb(65, 202, 141);
+  }
+  
+  #contact > p:last-child {
+    background-color: rgb(45, 97, 74);
+  } */
 
   #offer {
     grid-column: 2 / 4;
